@@ -20,7 +20,7 @@ def getting_info(e):
     pe = 1
 
     total_average = sci + eng + ict + math + fili + pe
-    calculate = (sub1*5)+(sub2*5)+(sub3*2)+(sub4*5)+(sub5*3)+(sub6*1)/(total_average) 
+    calculate = ((sub1*sci)+(sub2*eng)+(sub3*ict)+(sub4*math)+(sub5*fili)+(sub6*pe)) / (total_average) 
 
     message = f"""
     Name: {first_name} {last_name}\n
@@ -74,4 +74,5 @@ def club3_information(e):
 
 
     display(f'{club3['Club Name']} {club3['Description']} {club3['Meeting Time']} {club3['Location']} {club3['Club Moderator']} {club3['Number of members']}', target="output")
+
 

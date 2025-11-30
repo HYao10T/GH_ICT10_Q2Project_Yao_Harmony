@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(31, 31, 31);
+    background-image: url(bgwinx.jpg);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#4e433b;
+    text-align: center;
+    padding: 0% ;
+    margin: 0 auto;
+}
+
+p{
+    text-align: center;
+}
+form label{
+    background-color: #4e433b;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+input{
+    padding: 10px;
+    border-style: none;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+#navbar ul{
+    background-image: url(https://gifcity.carrd.co/assets/images/gallery68/ec2bc4b7.gif?v=e3c0bc0f);
+    list-style-type: none;
+    padding: 15px;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 5%;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    gap: 40px;;
+}
+
+#navbar ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#navbar ul li a:hover{
+    color: rgb(229, 226, 255);
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#container{
+    background-color: #ffe0e0e7;
+    box-shadow: 2px -2px 100px 43px rgba(255,224,224,0.75);
+-webkit-box-shadow: 2px -2px 100px 43px rgba(255,224,224,0.75);
+-moz-box-shadow: 2px -2px 100px 43px rgba(255,224,224,0.75);
+    width: 50%;
+    height: auto;  
+    padding: 20px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius: 30px;;
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+button a{
+    text-decoration: none;
+    color: #4e433b;
+}
+button{
+    background-color: #8DBCF2;
+    padding: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+button:hover{
+    background-color: #d9e9fd;
+    padding: 10px;
+    display: inline-flex;
+    border-radius: 10px;
+    border-style: none;
+    color:#4e433b;
+}
+
+#location{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+#place{
+    border-radius: 20px;
+    width: 200px;
+    height: 90px;
+    flex:1;
+}
+
+#place:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+#buttons button{
+    display: block;
+    flex-wrap:wrap;
+    padding: 20px;
+    margin: 5%;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.6);
+}
+
+#buttons button:hover{
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.6);
+    color:#ffffff;
+    height: 100px;
+    transition: 1.3s ease-in-out;
+}
+
+#div1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+#buttons #output{
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    text-align: left;
+    flex: 1;
+    opacity: 0.9;
+    transition: 0.5s ease-in-out;
+}
+
+h2{
+    background-image: url(https://www.dirittoefiabe.it/wp-content/uploads/2024/09/scuola_futuro.jpg);
+
+    padding: 20px;
+    opacity: 0.9;
+    border-radius: 20px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script> <!--python-->
+    <link rel="stylesheet" href="style.css" /> <!--external css-->
+    <title>SKILLS TEST</title>
+
+    <style>
+        body{
+            background-image: url(room.jpg);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav" id="navbar">
+       <ul>
+           <img src="https://gifs.crd.co/assets/images/gallery25/018c0014.gif?v=ef433a6f"> <li><a class="active" href="index.html">Home</a></li><br>
+            <li><a href="grade.html">Grade Calculator</a></li><br>
+            <li><a href="club.html">Clubs</a></li><br><img src="https://gifs.crd.co/assets/images/gallery25/5210043c.gif?v=ef433a6f">
+        </ul>
+    </div>
+    
+    <div id="container">
+        <img src="https://gifs.crd.co/assets/images/gallery09/b920e31e.gif?v=ef433a6f"><br>
+        <h1><a href="http://www.gigaglitters.com/"><img src="http://www.gigaglitters.com/created/WorPzfOQG8.gif" width="284"  height="67" border="0" alt="http://www.rasaint.net/ - Glitter Graphics"></a><br><a href="http://www.gigaglitters.com/"></a></h1>
+        <div id="div1">
+            <div id="buttons">
+                <button id="winx" py-click="club1_information" style="background-image: url(alfeawinx.jpg)">Winx Club</button>
+                <button id="specialists" py-click="club2_information" style="background-image: url(redwinx.webp)">Specialists</button>
+                <button id="trix" py-click="club3_information" style="background-image: url(trix.webp)">Trix</button>
+            </div>
+            <div id="output">
+                <h3>Club Information</h3>
+            </div>
+        </div>
+
+        <button  onClick="window.location.reload()">Refresh</button><br>
+        <img src="https://gifs.crd.co/assets/images/gallery09/b920e31e.gif?v=ef433a6f">
+    </div>
+
+    <py-script src="main.py"></py-script>
+</body>
+</html>

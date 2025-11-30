@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script> <!--python-->
+    <link rel="stylesheet" href="style.css" /> <!--external css-->
+    <title>Seatwork:Student Grade Calculator</title>
+
+    <style>
+        body{
+            background-image: url(library.webp);
+            background-size: cover;
+        }
+    </style>
+</head>
+    <!-- BODY -->
+    <body>
+        <div class="topnav" id="navbar">
+       <ul>
+           <img src="https://gifs.crd.co/assets/images/gallery25/018c0014.gif?v=ef433a6f"> <li><a class="active" href="index.html">Home</a></li><br>
+            <li><a href="grade.html">Grade Calculator</a></li><br>
+            <li><a href="club.html">Clubs</a></li><br><img src="https://gifs.crd.co/assets/images/gallery25/5210043c.gif?v=ef433a6f">
+        </ul>
+    </div>
+    
+        <div id="container" style="background-image: url();">
+            <form>
+                <img src="https://gifs.crd.co/assets/images/gallery09/b920e31e.gif?v=ef433a6f"><h2><a href="http://www.gigaglitters.com/"><img src="http://www.gigaglitters.com/created/RRuQ72SL4t.gif" width="106"  height="67" border="0" alt="http://www.rasaint.net/ - Glitter Graphics"></a><br><a href="http://www.gigaglitters.com/"></a></h2>
+                <!-- FIRSTNAME -->
+                 <h3>Enter information:</h3>
+                <label>First name</label>
+                <input type="textbox" id="fname" placeholder="enter your first name">
+                <!-- LAST NAME -->
+                <label>Last name</label>
+                <input type="textbox" id="lname" placeholder="enter your last name"><br><br>
+
+                <div id="grades">
+                    <h3>Enter Your Grades:</h3>
+                    <!-- SCIENCE -->
+                    <label>Science</label>
+                    <input type="textbox" id="sci" placeholder="enter grade">
+                    <!-- ENGLISH -->
+                    <label>English</label>
+                    <input type="textbox" id="eng" placeholder="enter grade">
+                    <!-- ICT -->
+                    <label>ICT</label>
+                    <input type="textbox" id="ict" placeholder="enter grade"><br>
+                    <!-- MATH -->
+                    <label>Math</label>
+                    <input type="textbox" id="math" placeholder="enter grade"> 
+                    <!-- FILIPINO -->
+                    <label>Filipino</label>
+                    <input type="textbox" id="fili" placeholder="enter grade">  
+                    <!-- PE -->
+                    <label>PE</label>
+                    <input type="textbox" id="pe" placeholder="enter grade">  
+                </div>
+                
+                    <br><br>
+
+                    <button type="button" id="button" py-click="getting_info">Calculate GWA</button> <button  onClick="window.location.reload()">Refresh</button>
+    
+                    <br><br>
+                      <div id="output"></div> 
+                      
+               <img src="https://gifs.crd.co/assets/images/gallery09/b920e31e.gif?v=ef433a6f">
+            </form>
+        </div>
+        <py-script src="main.py"></py-script>
+    </body>
+</html>

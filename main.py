@@ -48,6 +48,8 @@ def club1_information(e):
         'Number of members':'Number of Members: 6'
     }
 
+    document.getElementById("output").innerHTML = ""
+
     display(f'{club1['Club Name']} {club1['Description']} {club1['Meeting Time']} {club1['Location']} {club1['Club Moderator']} {club1['Number of members']}', target="output")
 
 def club2_information(e):
@@ -59,6 +61,8 @@ def club2_information(e):
         'Club Moderator':'Club Moderator: Riven',
         'Number of members':'Number of Members: 5'
     }
+
+    document.getElementById("output").innerHTML = ""
 
     display(f'{club2['Club Name']} {club2['Description']} {club2['Meeting Time']} {club2['Location']} {club2['Club Moderator']} {club2['Number of members']}', target="output")
 
@@ -72,7 +76,7 @@ def club3_information(e):
         'Number of members':'Number of Members: 3'
     }
 
+    document.getElementById("output").innerHTML = ""
 
     display(f'{club3['Club Name']} {club3['Description']} {club3['Meeting Time']} {club3['Location']} {club3['Club Moderator']} {club3['Number of members']}', target="output")
-
 
